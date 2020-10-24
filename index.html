@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body style="margin: 0">
+    <canvas id="canvas11"></canvas>
+    <canvas id="canvas12"></canvas>
+    <canvas id="canvas13"></canvas>
+
+    <canvas id="canvas21"></canvas>
+    <canvas id="canvas22"></canvas>
+    <canvas id="canvas23"></canvas>
+
+    <canvas id="canvas31"></canvas>
+    <canvas id="canvas32"></canvas>
+    <canvas id="canvas33"></canvas>
+
+    <canvas id="canvasY"></canvas>
+
+    <div class="term term1">t1:</div>
+    <div class="term term2">t2:</div>
+    <div class="term term3">t3:</div>
+
+    <div class="bool bool1">and</div>
+    <div class="bool bool2">or</div>
+    <div class="bool bool3">and</div>
+
+    <div class="equal equal1">=</div>
+    <div class="equal equal2">=</div>
+    <div class="equal equal3">=</div>
+
+    <div id="interface">
+      <span id="span1">x1: </span><input id="inp1" type="text" />
+      <span id="span2">x2: </span><input id="inp2" type="text" />
+      <span id="span3">&nbsp;y:&nbsp;&nbsp;</span
+      ><input id="inp3" type="text" readonly />
+      <button id="button">Расчет</button>
+    </div>
+
+    <script>
+      let input1 = document.getElementById("inp1");
+      let input2 = document.getElementById("inp2");
+      let input3 = document.getElementById("inp3");
+      let button = document.getElementById("button");
+    </script>
+
+    <script id="main" src="main.js"></script>
+    <script id="plot" src="plot.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

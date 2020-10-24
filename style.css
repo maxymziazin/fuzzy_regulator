@@ -1,0 +1,187 @@
+* {
+  -webkit-user-select: none;
+}
+
+canvas {
+  position: absolute;
+  /* border: 1px solid #ff0000; */
+}
+
+/* Первая строка */
+
+#canvas11 {
+  top: 15px;
+  left: 40px;
+}
+
+#canvas12 {
+  top: 15px;
+  left: 480px;
+}
+
+#canvas13 {
+  top: 15px;
+  left: 920px;
+}
+
+/* Вторая строка */
+
+#canvas21 {
+  top: 230px;
+  left: 40px;
+}
+
+#canvas22 {
+  top: 230px;
+  left: 480px;
+}
+
+#canvas23 {
+  top: 230px;
+  left: 920px;
+}
+
+/* Третья строка */
+
+#canvas31 {
+  top: 445px;
+  left: 40px;
+}
+
+#canvas32 {
+  top: 445px;
+  left: 480px;
+}
+
+#canvas33 {
+  top: 445px;
+  left: 920px;
+}
+
+/* Четвертая строка */
+
+#canvasY {
+  top: 700px;
+  left: 480px;
+}
+
+/* Вспомогательные элементы */
+
+.term,
+.bool,
+.equal {
+  position: absolute;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+.term1 {
+  top: 90px;
+  left: 1px;
+}
+
+.term2 {
+  top: 305px;
+  left: 1px;
+}
+
+.term3 {
+  top: 520px;
+  left: 1px;
+}
+
+.bool1 {
+  top: 90px;
+  left: 420px;
+}
+
+.bool2 {
+  top: 305px;
+  left: 430px;
+}
+
+.bool3 {
+  top: 520px;
+  left: 420px;
+}
+
+.equal1 {
+  top: 90px;
+  left: 890px;
+}
+
+.equal2 {
+  top: 305px;
+  left: 890px;
+}
+
+.equal3 {
+  top: 520px;
+  left: 890px;
+}
+
+/* Интерфейс */
+
+#interface {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 670px;
+  left: 10px;
+}
+
+#interface * {
+  display: block;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#interface div {
+  display: block;
+  font-size: 3em;
+}
+
+input {
+  height: 40px;
+  width: 175px;
+  left: 110px;
+  font-size: 2em;
+}
+
+#inp1 {
+  top: 50px;
+}
+
+#inp2 {
+  top: 100px;
+}
+
+#inp3 {
+  top: 150px;
+}
+
+span {
+  left: 10px;
+  font-size: 3em;
+}
+
+#span1 {
+  top: 40px;
+}
+
+#span2 {
+  top: 90px;
+}
+
+#span3 {
+  top: 140px;
+}
+
+button {
+  width: 180px;
+  height: 50px;
+  font-size: 2.5em;
+  top: 220px;
+  left: 110px;
+}
